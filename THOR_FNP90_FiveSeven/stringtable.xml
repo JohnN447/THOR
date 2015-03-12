@@ -1,0 +1,43 @@
+﻿<?xml version="1,0" encoding="utf-8"?>
+<Project name="THOR_FNP90_FiveSeven">
+	<Package name="Labels">
+    <!--FN P90-->
+		<Key ID="STR_THOR_FNP90">
+			<Original>FN P90</Original>
+			<English>FN P90</English>
+			<German>FN P90</German>
+		</Key>
+        
+		<Key ID="STR_THOR_FNP90_Libr /ary">
+			<Original>The FN P90 is a personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium, Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces and counter-terrorist groups,</Original>
+			<English>The FN P90 is a personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium, Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces and counter-terrorist groups,</English>
+			<German>Die FN P90 ist eine Personal Defense Weapon (PDW, deutsch: persönliche Verteidigungswaffe) entworfen und gefertigt von FN Herstal in Belgien, Entwickelt als Antwort auf NATO-Anfragen um 9x19mm Parabellum Waffen abzulösen, wurde die P90 kompakt aber mit großer Durchschlagskraft entworfen für Fahrzeugbesatzung, Geschützmannschaften, Unterstützungstruppen, Spezialeinheiten und Terrorismusbekämpfungsgruppen,</German>
+		</Key>        
+		<Key ID="STR_THOR_FNP90_Desc">
+			<Original>Personal defence weapon&lt;br /&gt;Caliber 5,7x28mm</Original>
+			<English>Personal defence weapon&lt;br /&gt;Caliber 5,7x28mm</English>
+			<German>Personal Defence Weapon&lt;br /&gt;Kaliber 5,7x28mm</German>
+		</Key>
+    <!-- FN P90 Magazine -->
+		<Key ID="STR_THOR_FNP90_Mag">
+			<Original>5,7mm 50-Rounds-Cartridge</Original>
+			<English>5,7mm 50-Rounds-Cartridge</English>
+			<German>5,7mm 50-Schuss-Magazin</German>
+		</Key>
+		<Key ID="STR_THOR_FNP90_Mag_Desc">
+			<Original>Caliber: 5,7x28mm&lt;br /&gt;Rounds: 50&lt;br /&gt;Used by: FN P90</Original>
+			<English>Caliber: 5,7x28mm&lt;br /&gt;Rounds: 50&lt;br /&gt;Used by: FN P90</English>
+			<German>Kaliber: 5,7x28mm&lt;br /&gt;Patronen: 50&lt;br /&gt;Eingesetzt von: FN P90</German>
+		</Key>
+		<Key ID="STR_THOR_FNP90_Mag_Tracer">
+			<Original>5,7mm 50-Rounds-Cartridge Tracer (red)</Original>
+			<English>5,7mm 50-Rounds-Cartridge Tracer (red)</English>
+			<German>5,7mm 50-Schuss-Magazin Leuchtspur (rot)</German>
+		</Key>
+		<Key ID="STR_THOR_FNP90_Mag_Tracer_Desc">
+			<Original>Caliber: 5,7x28mm Tracer - red&lt;br /&gt;Rounds: 50&lt;br /&gt;Used by: FN P90</Original>
+			<English>Caliber: 5,7x28mm Tracer - red&lt;br /&gt;Rounds: 50&lt;br /&gt;Used by: FN P90</English>
+			<German>Kaliber: 5,7x28mm Leuchtspur - rot&lt;br /&gt;Patronen: 50&lt;br /&gt;Eingesetzt von: FN P90</German>
+		</Key>
+    </Package>
+</Project>
