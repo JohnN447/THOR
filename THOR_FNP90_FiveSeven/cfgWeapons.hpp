@@ -540,7 +540,14 @@ class THOR_FNP90: THOR_FNP90_base
     model="\THOR_FNP90_FiveSeven\data\THOR_FNP90.p3d";
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
-        mass=60;
+	class CowsSlot {
+		access = 1;
+		compatibleitems[] = {"optic_Arco", "optic_aco", "optic_ACO_grn", "optic_hamr", "optic_Holosight"};
+		displayname = "Optics Slot";
+		linkproxy = "\A3\data_f\proxies\weapon_slots\TOP";
+		scope = 2;
+	};
+     mass=60;
     };
     inertia=0.40000001;
     dexterity=1.6;
