@@ -514,7 +514,7 @@ class THOR_FNP90_base: Rifle_Base_F
                 0.34
             };
         };
-        reloadTime=0.054499999;
+        reloadTime=0.069499999;
         dispersion=0.0011;
         recoil="recoil_auto_smg_02";
         recoilProne="recoil_auto_prone_smg_02";
