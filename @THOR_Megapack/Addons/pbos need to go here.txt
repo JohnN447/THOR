@@ -1,5 +1,0 @@
-use arma 3 tools to pack pbos of what ever you want to test
-
-
-- currently available:
-    THOR_FNP90_FiveSeven: https://github.com/JohnN447/THOR/tree/master/THOR_FNP90_FiveSeven
