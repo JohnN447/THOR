@@ -228,21 +228,21 @@ class THOR_FNP90_base: Rifle_Base_F
         {
             begin1[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_01",
+                "\THOR_FNP90_FiveSeven\data\audio\01",
                 1,
                 1,
                 1200
             };
             begin2[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_02",
+                "\THOR_FNP90_FiveSeven\data\audio\02",
                 1,
                 1,
                 1200
             };
             begin3[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_03",
+                "\THOR_FNP90_FiveSeven\data\audio\03",
                 1,
                 1,
                 1200
@@ -315,14 +315,14 @@ class THOR_FNP90_base: Rifle_Base_F
             weaponSoundEffect="DefaultRifle";
             closure1[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\closure_Sting_01",
+                "\THOR_FNP90_FiveSeven\data\audio\01",
                 1,
                 1,
                 10
             };
             closure2[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\closure_Sting_02",
+                "\THOR_FNP90_FiveSeven\data\audio\02",
                 1,
                 1.1,
                 10
@@ -339,21 +339,21 @@ class THOR_FNP90_base: Rifle_Base_F
         {
             begin1[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_01",
+                "\THOR_FNP90_FiveSeven\data\audio\01",
                 1,
                 1,
                 1200
             };
             begin2[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_02",
+                "\THOR_FNP90_FiveSeven\data\audio\02",
                 1,
                 1,
                 1200
             };
             begin3[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_03",
+                "\THOR_FNP90_FiveSeven\data\audio\03",
                 1,
                 1,
                 1200
@@ -428,14 +428,14 @@ class THOR_FNP90_base: Rifle_Base_F
             weaponSoundEffect="DefaultRifle";
             closure1[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\closure_Sting_01",
+                "\THOR_FNP90_FiveSeven\data\audio\01",
                 1,
                 1,
                 10
             };
             closure2[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\closure_Sting_02",
+                "\THOR_FNP90_FiveSeven\data\audio\02",
                 1,
                 1.1,
                 10
@@ -452,21 +452,21 @@ class THOR_FNP90_base: Rifle_Base_F
         {
             begin1[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_01",
+                "\THOR_FNP90_FiveSeven\data\audio\01",
                 1,
                 1,
                 1200
             };
             begin2[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_02",
+                "\THOR_FNP90_FiveSeven\data\audio\02",
                 1,
                 1,
                 1200
             };
             begin3[]=
             {
-                "A3\Sounds_F\arsenal\weapons\SMG\Sting\Sting_03",
+                "\THOR_FNP90_FiveSeven\data\audio\03",
                 1,
                 1,
                 1200
@@ -553,8 +553,8 @@ class THOR_FNP90: THOR_FNP90_base
     dexterity=1.6;
     initSpeed=370;
     displayName="$STR_THOR_FNP90";
-    picture="\A3\Weapons_F_beta\Smgs\SMG_02\Data\UI\gear_smg_02_X_CA.paa";
-    UiPicture="\A3\Weapons_F\data\UI\icon_regular_CA.paa";
+    picture="\THOR_FNP90_FiveSeven\data\icons\THOR_FNP90.paa";
+    UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_FNP90.paa";
     class Library
     {
         libTextDesc="$STR_THOR_FNP90_Library";
