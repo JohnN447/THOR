@@ -1,7 +1,7 @@
 class BulletBase;
 class THOR_57x28_Ball: BulletBase
 {
-    hit=8;
+    hit=14;
     indirectHit=0;
     indirectHitRange=0;
     cost=1;
