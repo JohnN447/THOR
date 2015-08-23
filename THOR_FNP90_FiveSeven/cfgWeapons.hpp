@@ -20,7 +20,7 @@ class THOR_FNP90_base: Rifle_Base_F
     discreteDistanceInitIndex=0;
     aiDispersionCoefY=8;
     aiDispersionCoefX=9;
-    descriptionShort="$STR_THOR_FNP90_Desc";
+    descriptionShort=$STR_THOR_FNP90_Desc;
     handAnim[]=
     {
         "OFP2_ManSkeleton",
@@ -553,8 +553,13 @@ class THOR_FNP90: THOR_FNP90_base
     dexterity=1.6;
     initSpeed=370;
     displayName=$STR_THOR_FNP90;
+
     picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
     UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
+
+    picture="\THOR_FNP90_FiveSeven\data\icons\THOR_FNP90.paa";
+    UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_FNP90.paa";
+
     class Library
     {
         libTextDesc=$STR_THOR_FNP90_Library;
