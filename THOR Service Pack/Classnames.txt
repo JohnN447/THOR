@@ -1,0 +1,111 @@
+3CB
+
+DESCRIPTION                             CLASSNAME
+--- Rifles ------------------------------------------------------------------------
+L103A2 DP                               UK3CB_BAF_L103A2
+L110A2 LMG                              UK3CB_BAF_L110A2
+L110A2 LMG FIST                         UK3CB_BAF_L110A2_FIST
+L115A3 (Desert)                         UK3CB_BAF_L115A3_Desert
+L115A3 (Desert/Ghillie)                 UK3CB_BAF_L115A3_Desert_Ghillie
+L115A3 (Woodland)                       UK3CB_BAF_L115A3
+L115A3 (Woodland/Ghillie)               UK3CB_BAF_L115A3_Ghillie
+L128A1 Shotgun                          UK3CB_BAF_L128A1
+L129A1 DMR                              UK3CB_BAF_L129A1
+L129A1 DMR AFG                          UK3CB_BAF_L129A1_AFG
+L129A1 DMR Folding Grip                 UK3CB_BAF_L129A1_FGrip
+L129A1 DMR GripPod                      UK3CB_BAF_L129A1_Grippod
+L22                                     UK3CB_BAF_L22
+L22A2                                   UK3CB_BAF_L22A2
+L7A2 GPMG                               UK3CB_BAF_L7A2
+L7A2 GPMG FIST                          UK3CB_BAF_L7A2_FIST
+L82A1                                   UK3CB_BAF_L82A1
+L85A2                                   UK3CB_BAF_L85A2
+L85A2 AFG                               UK3CB_BAF_L85A2_RIS_AFG
+L85A2 EMAG                              UK3CB_BAF_L85A2_EMAG
+L85A2 RIS                               UK3CB_BAF_L85A2_RIS
+L85A2 with L123A2 Ladder                UK3CB_BAF_L85A2_UGL
+L85A2 with L123A3 HWS                   UK3CB_BAF_L85A2_UGL_HWS
+L86(P) DMR                              UK3CB_BAF_L86A3
+L86A2 LSW                               UK3CB_BAF_L86A2
+L91A1 SMG                               UK3CB_BAF_L91A1
+L92A1 SMG                               UK3CB_BAF_L92A1
+L98A2 Cadet GP                          UK3CB_BAF_L98A2
+
+--- Handguns ----------------------------------------------------------------------
+L131A1                                  UK3CB_BAF_L131A1
+
+--- Launchers ---------------------------------------------------------------------
+ILAW CS HEDP Launcher                   UK3CB_BAF_AT4_CS_AT_Launcher
+ILAW CS HP Launcher                     UK3CB_BAF_AT4_CS_AP_Launcher
+AT4 HEDP Launcher                       UK3CB_BAF_AT4_AP_Launcher
+AT4 HP Launcher                         UK3CB_BAF_AT4_AT_Launcher
+NLAW Launcher                           UK3CB_BAF_NLAW_Launcher
+Javelin Launcher                        UK3CB_BAF_Javelin_Launcher  (CLU + Tube)
+Javelin Tube                            UK3CB_BAF_Javelin_Slung_Tube
+
+--- Optics ------------------------------------------------------------------------
+Javelin CLU                             UK3CB_BAF_Javelin_CLU
+
+--- Sights ------------------------------------------------------------------------
+ELCAN LDS                               UK3CB_BAF_SpecterLDS
+ELCAN LDS (3D)                          UK3CB_BAF_SpecterLDS_3D
+ELCAN LDS Reflex                        UK3CB_BAF_SpecterLDS_Dot
+ELCAN LDS Reflex (3D)                   UK3CB_BAF_SpecterLDS_Dot_3D
+Eotech 553 HWS                          UK3CB_BAF_Eotech
+SB 3-12x50                              UK3CB_BAF_SB31250
+SB 3-12x50 (Desert)                     UK3CB_BAF_SB31250_Desert
+SB 3-12x50 (Desert/Ghillie)             UK3CB_BAF_SB31250_Desert_Ghillie
+SB 3-12x50 (Ghillie)                    UK3CB_BAF_SB31250_Ghillie
+SUSAT L9A1                              UK3CB_BAF_SUSAT
+SUSAT L9A1 (3D)                         UK3CB_BAF_SUSAT_3D
+Trijicon ACOG TA31F                     UK3CB_BAF_TA31F
+Trijicon ACOG TA31F (3D)                UK3CB_BAF_TA31F_3D
+Trijicon ACOG TA31F Hornbill            UK3CB_BAF_TA31F_Hornbill
+Trijicon ACOG TA31F Hornbill (3D)       UK3CB_BAF_TA31F_Hornbill_3D
+Trijicon ACOG TA648RMR                  UK3CB_BAF_TA648
+Trijicon ACOG TA648RMR-308              UK3CB_BAF_TA648_308
+
+--- Accessories -------------------------------------------------------------------
+Blank Fire Adaptor (L110)               UK3CB_BAF_BFA_L110
+Blank Fire Adaptor (L129)               UK3CB_BAF_BFA_L129
+Blank Fire Adaptor (L7)                 UK3CB_BAF_BFA_L7
+Blank Fire Adaptor (L85)                UK3CB_BAF_BFA_L85
+Flashlight (L131A1)                     UK3CB_BAF_Flashlight_L131A1
+LLM Mk3 Flashlight (Black)              UK3CB_BAF_LLM_Flashlight_Black
+LLM Mk3 Flashlight (Tan)                UK3CB_BAF_LLM_Flashlight_Tan
+LLM Mk3 IR (Black)                      UK3CB_BAF_LLM_IR_Black
+LLM Mk3 IR (Tan)                        UK3CB_BAF_LLM_IR_Tan
+Silencer (L110)                         UK3CB_BAF_Silencer_L110
+Silencer (L115 / L129)                  UK3CB_BAF_Silencer_L115A3
+Silencer (L85)                          UK3CB_BAF_Silencer_L85
+Silencer (L91)                          UK3CB_BAF_Silencer_L91A1
+Surefire Flash Hider                    UK3CB_BAF_SFFH
+
+--- Ammunition -------------------------------------------------------------------
+5.56mm 30rnd STANAG Mag                 UK3CB_BAF_30Rnd
+5.56mm 30rnd Blank STANAG Mag           UK3CB_BAF_30Rnd_Blank
+5.56mm 30rnd Tracer STANAG Mag          UK3CB_BAF_30Rnd_T
+5.56mm 100rnd STANAG Boxmag             UK3CB_BAF_100Rnd
+5.56mm 100rnd Tracer STANAG Boxmag      UK3CB_BAF_100Rnd_T
+5.56mm 200rnd STANAG Boxmag             UK3CB_BAF_200Rnd
+5.56mm 200rnd Blank STANAG Boxmag       UK3CB_BAF_200Rnd_Blank
+5.56mm 200rnd Tracer STANAG Boxmag      UK3CB_BAF_200Rnd_T
+7.62mm 20rnd Mag                        UK3CB_BAF_20Rnd
+7.62mm 20rnd Blank Mag                  UK3CB_BAF_20Rnd_Blank
+7.62mm 20rnd Tracer Mag                 UK3CB_BAF_20Rnd_T
+7.62mm 75rnd Belt                       UK3CB_BAF_75Rnd
+7.62mm 75rnd Blank Belt                 UK3CB_BAF_75Rnd_Blank
+7.62mm 75rnd Tracer Belt                UK3CB_BAF_75Rnd_T
+9mm 17rnd Mag                           UK3CB_BAF_17Rnd_9mm
+9mm 30rnd Mag                           UK3CB_BAF_30Rnd_9mm
+12.7mm 10rnd Mag                        UK3CB_BAF_10Rnd_127x99mm
+12.7mm 10rnd SLAP Mag                   UK3CB_BAF_10Rnd_127x99mm_SLAP
+.338 5rnd Lapua Magnum Mag              UK3CB_BAF_L115A3_Mag
+12G 8rnd Buckshot                       UK3CB_BAF_L128A1_Pellets
+12G 8rnd Slug                           UK3CB_BAF_L128A1_Slugs
+40mm HEDP Grenade Round                 UK3CB_BAF_1Rnd_HEDP_Grenade_shell
+
+--- Boxes ----------------------------------------------------------------------
+Basic Weapons                           UK3CB_BAF_Box_WpsBasic
+Special Weapons                         UK3CB_BAF_Box_WpsSpecial
+Launchers                               UK3CB_BAF_Box_WpsLaunch
