@@ -664,17 +664,7 @@ class THOR_FNP90_base: Rifle_Base_F
         aiRateOfFireDistance=50;
     };
 };
-class PointerSlot : SlotInfo
- {
- 	// targetProxy
- 	linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
- 
- 	// display name
- 	displayName = $STR_A3_PointerSlot0;
- 
- 	// class names with items supported by weapon 
- 	compatibleItems[] = {"acc_flashlight","acc_pointer_IR"}; 
- };
+
 class THOR_FNP90: THOR_FNP90_base
 {
     author="[THOR] Heron";
@@ -683,15 +673,18 @@ class THOR_FNP90: THOR_FNP90_base
     model="\THOR_FNP90_FiveSeven\data\THOR_FNP90_SRAIL.p3d";
  	class WeaponSlotsInfo: WeaponSlotsInfo
     {
-		class CowsSlot: SlotInfo /// no sights as regular sight is installed here
-		{
-			compatibleItems[]=
-            {
-            };
+        // no sights as regular sight is installed here
+		class CowsSlot: SlotInfo {      
+			compatibleItems[]= {};
 			iconPosition[] = {0.5, 0.35};
 			iconScale = 0.2;
 		};
-     mass=60;
+        class PointerSlot: PointerSlot {
+            compatibleItems[]= {"acc_pointer_IR","acc_flashlight"};
+            iconPosition[]={0.28,0.40000001};
+            iconScale=0.25;
+        };
+        mass=60;
     };
     inertia=0.40000001;
     dexterity=1.6;
@@ -700,43 +693,33 @@ class THOR_FNP90: THOR_FNP90_base
 
     picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
     UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
-    class Library
-    {
+    class Library {
         libTextDesc=$STR_THOR_FNP90_Library;
     };
     descriptionShort=$STR_THOR_FNP90_Desc;
 };
 
-
-class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
-	{
+//Variant with integrated IR Laser
+class THOR_FNP90_IR: THOR_FNP90_base{
     author="[THOR] Heron";
     _generalMacro="SMG_02_F";
     scope=2;
     model="\THOR_FNP90_FiveSeven\data\THOR_FNP90.p3d";
-    class WeaponSlotsInfo: WeaponSlotsInfo
-    {
-        class PointerSlot: PointerSlot
-        {
-			            compatibleItems[]=
-            {
-                "THOR_IR",
-            };
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class PointerSlot: PointerSlot {
+            compatibleItems[]= {"THOR_P90IntegratedIR"};
             iconPosition[]={0.28,0.40000001};
             iconScale=0.25;
         };
 
+        class LinkedItems {
+            class LinkedItemsAcc {
+                slot = "PointerSlot";
+                item = "THOR_P90IntegratedIR";
+            };
+        };
 
-	class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "THOR_IR";
-			};
-		};
-
-     mass=60;
+        mass=60;
     };
     inertia=0.40000001;
     dexterity=1.6;
@@ -745,37 +728,32 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
 
     picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
     UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
-    class Library
-    {
+    class Library{
         libTextDesc=$STR_THOR_FNP90_IR_Library;
     };
+    
     descriptionShort=$STR_THOR_FNP90_IR_Desc;
-	};
+};
 
-	class ItemCore;
-	class ItemInfo;
-	class InventoryFlashLightItem_Base_F;
-	class THOR_IR: ItemCore
-		{
-		scope=2;
-		author="[THOR] Heron";
-		displayName="P90 IR-Laser";
-		descriptionUse=$STR_A3_IRL;
-		picture="";
-		model="\THOR_FNP90_FiveSeven\data\THOR_IR.p3d";
-		descriptionShort=$STR_A3_IRL;
-		class ItemInfo: InventoryFlashLightItem_Base_F
-		{
-			mass=1;
-			class Pointer
-			{
-				irLaserPos="laser dir";
-				irLaserEnd="laser pos";
-				irDistance=5;
-			};
-			class FlashLight
-			{
-			};
-		};
-		inertia=0.05;
-	};
+class ItemCore;
+class ItemInfo;
+class InventoryFlashLightItem_Base_F;
+class THOR_P90IntegratedIR: ItemCore {
+    scope=2;
+    author="[THOR] Heron";
+    displayName="P90 IR-Laser";
+    descriptionUse=$STR_A3_IRL;
+    picture="";
+    model="\THOR_FNP90_FiveSeven\data\THOR_IR.p3d";
+    descriptionShort=$STR_A3_IRL;
+    class ItemInfo: InventoryFlashLightItem_Base_F {
+        mass=1;
+        class Pointer{
+            irLaserPos="laser dir";
+            irLaserEnd="laser pos";
+            irDistance=5;
+        };
+        class FlashLight{};
+    };
+    inertia=0.05;
+};
