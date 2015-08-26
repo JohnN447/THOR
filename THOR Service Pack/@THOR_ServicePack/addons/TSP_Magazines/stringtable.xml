@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="THOR_Black">
+	<Package name="Labels">
+<!-- Ammo Descriptions -->
+        <!-- Ball -->
+		<Key ID="STR_DescS_ThorSP_Ball">
+			<Original>The Full metal jacket bullet is a small-arms projectile,&lt;br/&gt;most common in military use due to its high piercing potential.</Original>
+			<English>The Full metal jacket bullet is a small-arms projectile,&lt;br/&gt;most common in military use due to its high piercing potential.</English>
+			<German>Das Vollmantelgeschoss ist ein Klein-Waffen-Projektil,&lt;br/&gt;meist in militärischer Verwendung infolge des hohen Durchschlagspotenzials.</German>
+		</Key>
+		<Key ID="STR_DescS_ThorSP_Ball_T">
+			<Original>Tracer ammunition consits of projectiles that have a built in small pyrotechnic charge in their base,&lt;br/&gt;which burns very brightly, making the projectile trajectory visible to the eye in daylight and even more in nighttime.&lt;br/&gt;Warning: Tracer ammunition works in both ways!</Original>
+			<English>Tracer ammunition consits of projectiles that have a built in small pyrotechnic charge in their base,&lt;br/&gt;which burns very brightly, making the projectile trajectory visible to the eye in daylight and even more in nighttime.&lt;br/&gt;Warning: Tracer ammunition works in both ways!</English>
+			<German>Leuchtspur Munition besteht aus Projektilen mit einer eingebauten pyrotechnischen Ladung am Ende,&lt;br/&gt;welche sehr hell verbrennt und so die Flugbahn des Geschosses für das Auge sichtbar macht bei Tageslicht und insbesondere bei Nacht.&lt;br/&gt;Warnung: Leuchtspur-Munition funktioniert in beide Richtungen!</German>
+		</Key>
+		<Key ID="STR_DescS_ThorSP_Ball_Tir">
+			<Original>A more modern variant of the tracer ammo,&lt;br/&gt;which emits little to no visible light and radiates mainly in infrared,&lt;br/&gt;due to this it is hidden for everyone not wearing nigth vision equipment.</Original>
+			<English>A more modern variant of the tracer ammo,&lt;br/&gt;which emits little to no visible light and radiates mainly in infrared,&lt;br/&gt;due to this it is hidden for everyone not wearing nigth vision equipment.</English>
+			<German>Eine modernisierte Ausführung der Leuchtspur-Munition,&lt;br/&gt;welche wenig bis garkein sichtbares Licht abgibt und hauptsächlich im Infrarotbereich strahlt,&lt;br/&gt;aus diesem Grund ist diese Munition vor allen verborgen die keine Nachtsichtausrüstung verwenden.</German>
+		</Key>
+		<Key ID="STR_DescS_ThorSP_Ball_Mixed">
+			<Original>These mixed magazines consist of FMJ ammunition and a tracer every 5 shots,&lt;br/&gt;to improve the gunners orientation of the hitzone.</Original>
+			<English>These mixed magazines consist of FMJ ammunition and a tracer every 5 shots,&lt;br/&gt;to improve the gunners orientation of the hitzone.</English>
+			<German>Diese gemischten Magazine bestehen aus FMJ Munition und einer Leuchtspur-Patrone alle 5 Schuss,&lt;br/&gt;um dem Schützen mehr Orientierung über die Trefferfläche zu geben. </German>
+		</Key>
+
+        <!-- Mk262 -->
+		<Key ID="STR_DescS_ThorSP_Mk262">
+			<Original>The Mk262 is designed for longrange use with improved accuracy and stopping power.&lt;br/&gt;It is the preferred round of many special forces operators.</Original>
+			<English>The Mk262 is designed for longrange use with improved accuracy and stopping power.&lt;br/&gt;It is the preferred round of many special forces operators.</English>
+			<German>Die Mk262 ist entwickelt für den Einsatz auf große Reichweite mit verbesserter Genauigkeit und Stopwirkung.&lt;br/&gt;Sie ist die bevorzugte Munition vieler Soldaten von Spezialkräften.</German>
+		</Key>
+
+        <!-- Mk318 -->
+		<Key ID="STR_DescS_ThorSP_Mk318">
+			<Original>The Mk318, also known as SOST, is a special ammunition, designed to penetrate barriers,&lt;br/&gt;like walls and windshields without loss in stopping power.</Original>
+			<English>The Mk318, also known as SOST, is a special ammunition, designed to penetrate barriers,&lt;br/&gt;like walls and windshields without loss in stopping power.</English>
+			<German>Die Mk318, auch bekannt als SOST, ist eine spezielle Munitionsart, entwickelt um Barrieren,&lt;br/&gt;wie Mauern oder Autoschieben zu durchschlagen, ohne verluste bei der Stoppwirkung.</German>
+		</Key>
+
+        <!-- M995 -->
+		<Key ID="STR_DescS_ThorSP_M995">
+			<Original>The M995 is an armor piercing round,&lt;br/&gt;capable of penetrating up to 12mm of RHA steel, at a distance of 100 meters.</Original>
+			<English>The M995 is an armor piercing round,&lt;br/&gt;capable of penetrating up to 12mm of RHA steel, at a distance of 100 meters.</English>
+			<German>Die M995 ist eine panzerbrechende Munition,&lt;br/&gt;welche fähig ist bis zu 12mm RHA Stahl, auf eine Entfernung von 100 Metern zu durchdringen.</German>
+		</Key>
+
+<!-- 556x45 Normal -->
+    <!-- 556x45 20 Rounds -->
+        <!-- ThorSP_20Rnd_556x45_Ball -->
+		<Key ID="STR_Name_ThorSP_20Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 20 Rounds</Original>
+			<English>FMJ 5.56x45mm, 20 Rounds</English>
+			<German>FMJ 5.56x45mm, 20 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_20Rnd_556x45_Mk262 -->
+		<Key ID="STR_Name_ThorSP_20Rnd_556x45_Mk262">
+			<Original>Mk262 5.56x45mm, 20 Rounds</Original>
+			<English>Mk262 5.56x45mm, 20 Rounds</English>
+			<German>Mk262 5.56x45mm, 20 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_20Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_ThorSP_20Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 20 Rounds</Original>
+			<English>Mk318 5.56x45mm, 20 Rounds</English>
+			<German>Mk318 5.56x45mm, 20 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_20Rnd_556x45_M995 -->
+		<Key ID="STR_Name_ThorSP_20Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 20 Rounds</Original>
+			<English>M995 5.56x45mm, 20 Rounds</English>
+			<German>M995 5.56x45mm, 20 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 30 Rounds -->
+        <!-- ThorSP_30Rnd_556x45_Ball -->
+		<Key ID="STR_Name_ThorSP_30Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 30 Rounds</Original>
+			<English>FMJ 5.56x45mm, 30 Rounds</English>
+			<German>FMJ 5.56x45mm, 30 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_30Rnd_556x45_Mk262 -->
+		<Key ID="STR_Name_ThorSP_30Rnd_556x45_Mk262">
+			<Original>Mk262 5.56x45mm, 30 Rounds</Original>
+			<English>Mk262 5.56x45mm, 30 Rounds</English>
+			<German>Mk262 5.56x45mm, 30 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_30Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_ThorSP_30Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 30 Rounds</Original>
+			<English>Mk318 5.56x45mm, 30 Rounds</English>
+			<German>Mk318 5.56x45mm, 30 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_30Rnd_556x45_M995 -->
+		<Key ID="STR_Name_ThorSP_30Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 30 Rounds</Original>
+			<English>M995 5.56x45mm, 30 Rounds</English>
+			<German>M995 5.56x45mm, 30 Schuss</German>
+		</Key>
+
+    <!-- 556x45 60 Rounds -->
+        <!-- ThorSP_60Rnd_556x45_Ball -->
+		<Key ID="STR_Name_ThorSP_60Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ 5.56x45mm, 60 Rounds</English>
+			<German>FMJ 5.56x45mm, 60 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_60Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_ThorSP_60Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 60 Rounds</Original>
+			<English>Mk318 5.56x45mm, 60 Rounds</English>
+			<German>Mk318 5.56x45mm, 60 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_60Rnd_556x45_M995 -->
+		<Key ID="STR_Name_ThorSP_60Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 60 Rounds</Original>
+			<English>M995 5.56x45mm, 60 Rounds</English>
+			<German>M995 5.56x45mm, 60 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 100 Rounds -->
+        <!-- ThorSP_100Rnd_556x45_Ball -->
+		<Key ID="STR_Name_ThorSP_100Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ 5.56x45mm, 100 Rounds</English>
+			<German>FMJ 5.56x45mm, 100 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_100Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_ThorSP_100Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 100 Rounds</Original>
+			<English>Mk318 5.56x45mm, 100 Rounds</English>
+			<German>Mk318 5.56x45mm, 100 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_100Rnd_556x45_M995 -->
+		<Key ID="STR_Name_ThorSP_100Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 100 Rounds</Original>
+			<English>M995 5.56x45mm, 100 Rounds</English>
+			<German>M995 5.56x45mm, 100 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 200 Rounds -->
+        <!-- ThorSP_200Rnd_556x45_Ball -->
+		<Key ID="STR_Name_ThorSP_200Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ 5.56x45mm, 200 Rounds</English>
+			<German>FMJ 5.56x45mm, 200 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_200Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_ThorSP_200Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 200 Rounds</Original>
+			<English>Mk318 5.56x45mm, 200 Rounds</English>
+			<German>Mk318 5.56x45mm, 200 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_200Rnd_556x45_M995 -->
+		<Key ID="STR_Name_ThorSP_200Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 200 Rounds</Original>
+			<English>M995 5.56x45mm, 200 Rounds</English>
+			<German>M995 5.56x45mm, 200 Schuss</German>
+		</Key>
+        
+<!-- 556x45 Tracer -->
+    <!-- 556x45 20 Rounds -->
+        <!-- ThorSP_20Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_ThorSP_20Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 20 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 20 Rounds</English>
+			<German>FMJ T 5.56x45mm, 20 Schuss</German>
+		</Key>
+        
+        <!-- ThorSP_20Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_ThorSP_20Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 20 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 20 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 20 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 30 Rounds -->
+        <!-- ThorSP_30Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_ThorSP_30Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 30 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 30 Rounds</English>
+			<German>FMJ T 5.56x45mm, 30 Schuss</German>
+		</Key>
+        
+        <!-- ThorSP_30Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_ThorSP_30Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 30 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 30 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 30 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 60 Rounds -->
+        <!-- ThorSP_60Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_ThorSP_60Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 60 Rounds</English>
+			<German>FMJ T 5.56x45mm, 60 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_60Rnd_556x45_Ball_Mixed -->
+		<Key ID="STR_Name_ThorSP_60Rnd_556x45_Ball_Mixed">
+			<Original>FMJ M 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ M 5.56x45mm, 60 Rounds</English>
+			<German>FMJ M 5.56x45mm, 60 Schuss</German>
+		</Key>
+        
+        <!-- ThorSP_60Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_ThorSP_60Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 60 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 60 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 100 Rounds -->
+        <!-- ThorSP_100Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_ThorSP_100Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 100 Rounds</English>
+			<German>FMJ T 5.56x45mm, 100 Schuss</German>
+		</Key>
+        
+        <!-- ThorSP_100Rnd_556x45_Ball_Mixed -->
+		<Key ID="STR_Name_ThorSP_100Rnd_556x45_Ball_Mixed">
+			<Original>FMJ M 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ M 5.56x45mm, 100 Rounds</English>
+			<German>FMJ M 5.56x45mm, 100 Schuss</German>
+		</Key>
+        
+        <!-- ThorSP_100Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_ThorSP_100Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 100 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 100 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 200 Rounds -->
+        <!-- ThorSP_200Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_ThorSP_200Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 200 Rounds</English>
+			<German>FMJ T 5.56x45mm, 200 Schuss</German>
+		</Key>
+
+        <!-- ThorSP_200Rnd_556x45_Ball_Mixed -->
+		<Key ID="STR_Name_ThorSP_200Rnd_556x45_Ball_Mixed">
+			<Original>FMJ M 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ M 5.56x45mm, 200 Rounds</English>
+			<German>FMJ M 5.56x45mm, 200 Schuss</German>
+		</Key>
+        
+        <!-- ThorSP_200Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_ThorSP_200Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 200 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 200 Schuss</German>
+		</Key>
+    </Package>
+</Project>

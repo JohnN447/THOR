@@ -1,0 +1,42 @@
+        these would actually work purrfect if bohemia wouldnt fuck shit up so frequently
+        
+
+        "ThorSP_20Rnd_556x45_Group"
+            "ThorSP_20Rnd_556x45_Ball",
+            "ThorSP_20Rnd_556x45_Mk262",
+            "ThorSP_20Rnd_556x45_Mk318",
+            "ThorSP_20Rnd_556x45_M995",
+            "ThorSP_20Rnd_556x45_Ball_T",
+            "ThorSP_20Rnd_556x45_Ball_Tir",
+                   
+        "ThorSP_30Rnd_556x45_Group"
+            "ThorSP_30Rnd_556x45_Ball",
+            "ThorSP_30Rnd_556x45_Mk262",
+            "ThorSP_30Rnd_556x45_Mk318",
+            "ThorSP_30Rnd_556x45_M995",
+            "ThorSP_30Rnd_556x45_Ball_T",
+            "ThorSP_30Rnd_556x45_Ball_Tir",
+        
+        "ThorSP_60Rnd_556x45_Group"
+            "ThorSP_60Rnd_556x45_Ball",
+            "ThorSP_60Rnd_556x45_Mk318",
+            "ThorSP_60Rnd_556x45_M995",
+            "ThorSP_60Rnd_556x45_Ball_T",
+            "ThorSP_60Rnd_556x45_Ball_Mixed",
+            "ThorSP_60Rnd_556x45_Ball_Tir",
+            
+        "ThorSP_100Rnd_556x45_Group"
+            "ThorSP_100Rnd_556x45_Ball",
+            "ThorSP_100Rnd_556x45_Mk318",
+            "ThorSP_100Rnd_556x45_M995",
+            "ThorSP_100Rnd_556x45_Ball_T",
+            "ThorSP_100Rnd_556x45_Ball_Mixed",
+            "ThorSP_100Rnd_556x45_Ball_Tir",
+            
+        "ThorSP_200Rnd_556x45_Group"
+            "ThorSP_200Rnd_556x45_Ball",
+            "ThorSP_200Rnd_556x45_Mk318",
+            "ThorSP_200Rnd_556x45_M995",
+            "ThorSP_200Rnd_556x45_Ball_T",
+            "ThorSP_200Rnd_556x45_Ball_Mixed",
+            "ThorSP_200Rnd_556x45_Ball_Tir",

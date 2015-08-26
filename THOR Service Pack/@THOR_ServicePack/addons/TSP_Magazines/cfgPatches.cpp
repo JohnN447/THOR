@@ -6,10 +6,9 @@ class TSP_bwa3
     
     weapons[] = {};
 
-    requiredVersion = 1.0;
+    requiredVersion = 3.0;
     requiredAddons[] = 
     {
-        "bwa3_weapons",
-        "TSP_Magazines"
+        "ace_ballistics"
     };
  };
