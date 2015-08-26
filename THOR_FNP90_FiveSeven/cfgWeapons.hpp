@@ -710,7 +710,6 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
 			            compatibleItems[]=
             {
                 "THOR_IR",
-				"RH_peq15"
             };
             iconPosition[]={0.28,0.40000001};
             iconScale=0.25;
@@ -731,7 +730,7 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
     inertia=0.40000001;
     dexterity=1.6;
     initSpeed=370;
-    displayName=$STR_THOR_FNP90_IR;
+    displayName="FN P90 IR";
 
     picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
     UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
@@ -749,7 +748,7 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
 		{
 		scope=2;
 		author="[THOR] Heron";
-		displayName="P90 integrierter IR-Laser";
+		displayName="P90 IR-Laser";
 		descriptionUse=$STR_A3_IRL;
 		picture="";
 		model="\THOR_FNP90_FiveSeven\data\THOR_IR.p3d";
@@ -759,8 +758,8 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
 			mass=1;
 			class Pointer
 			{
-				irLaserPos="laser pos";
-				irLaserEnd="laser dir";
+				irLaserPos="laser dir";
+				irLaserEnd="laser pos";
 				irDistance=5;
 			};
 			class FlashLight
