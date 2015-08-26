@@ -664,22 +664,33 @@ class THOR_FNP90_base: Rifle_Base_F
         aiRateOfFireDistance=50;
     };
 };
-
+class PointerSlot : SlotInfo
+ {
+ 	// targetProxy
+ 	linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
+ 
+ 	// display name
+ 	displayName = $STR_A3_PointerSlot0;
+ 
+ 	// class names with items supported by weapon 
+ 	compatibleItems[] = {"acc_flashlight","acc_pointer_IR"}; 
+ };
 class THOR_FNP90: THOR_FNP90_base
 {
     author="[THOR] Heron";
     _generalMacro="SMG_02_F";
     scope=2;
-    model="\THOR_FNP90_FiveSeven\data\THOR_FNP90.p3d";
-    class WeaponSlotsInfo: WeaponSlotsInfo
+    model="\THOR_FNP90_FiveSeven\data\THOR_FNP90_SRAIL.p3d";
+ 	class WeaponSlotsInfo: WeaponSlotsInfo
     {
-	class CowsSlot {
-		access = 1;
-		compatibleitems[] = {"optic_Arco", "optic_aco", "optic_ACO_grn", "optic_hamr", "optic_Holosight"};
-		displayname = "Optics Slot";
-		linkproxy = "\A3\data_f\proxies\weapon_slots\TOP";
-		scope = 2;
-	};
+		class CowsSlot: SlotInfo /// no sights as regular sight is installed here
+		{
+			compatibleItems[]=
+            {
+            };
+			iconPosition[] = {0.5, 0.35};
+			iconScale = 0.2;
+		};
      mass=60;
     };
     inertia=0.40000001;
