@@ -664,42 +664,56 @@ class THOR_FNP90_base: Rifle_Base_F
         aiRateOfFireDistance=50;
     };
 };
-
-class THOR_FNP90: THOR_FNP90_base
+//Variants without integrated IR Laser
+class THOR_FNP90_Railed: THOR_FNP90_base
 {
     author="[THOR] Heron";
     _generalMacro="SMG_02_F";
     scope=2;
-    model="\THOR_FNP90_FiveSeven\data\THOR_FNP90_SRAIL.p3d";
+    model="\THOR_FNP90_FiveSeven\data\THOR_FNP90_TSRAIL.p3d";
  	class WeaponSlotsInfo: WeaponSlotsInfo
     {
-        // no sights as regular sight is installed here
+        mass=60;
+		// Sights to be used on M1913 Rail
+    };
+    inertia=0.40000001;
+    dexterity=1.6;
+    initSpeed=370;
+	displayName=$STR_THOR_FNP90T;
+    picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
+    UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
+    class Library {
+        libTextDesc=$STR_THOR_FNP90RAILED_Library;
+    };
+    descriptionShort=$STR_THOR_FNP90RAILED_Desc;
+};
+
+//Variante mit M1913 Schiene
+class THOR_FNP90: THOR_FNP90_Railed
+{
+	    model="\THOR_FNP90_FiveSeven\data\THOR_FNP90_SRAIL.p3d";
+		displayName=$STR_THOR_FNP90;
+	 	class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+                // no sights as regular sight is installed here
 		class CowsSlot: SlotInfo {      
 			compatibleItems[]= {};
 			iconPosition[] = {0.5, 0.35};
 			iconScale = 0.2;
 		};
-        class PointerSlot: PointerSlot {
+		    class PointerSlot: PointerSlot {
             compatibleItems[]= {"acc_pointer_IR","acc_flashlight"};
             iconPosition[]={0.28,0.40000001};
             iconScale=0.25;
         };
-        mass=60;
-    };
-    inertia=0.40000001;
-    dexterity=1.6;
-    initSpeed=370;
-    displayName=$STR_THOR_FNP90;
-
-    picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
-    UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
+		};
     class Library {
         libTextDesc=$STR_THOR_FNP90_Library;
     };
     descriptionShort=$STR_THOR_FNP90_Desc;
 };
 
-//Variant with integrated IR Laser
+//Variants with integrated IR Laser
 class THOR_FNP90_IR: THOR_FNP90_base{
     author="[THOR] Heron";
     _generalMacro="SMG_02_F";
@@ -711,7 +725,11 @@ class THOR_FNP90_IR: THOR_FNP90_base{
             iconPosition[]={0.28,0.40000001};
             iconScale=0.25;
         };
-
+		class CowsSlot: SlotInfo {      
+			compatibleItems[]= {};
+			iconPosition[] = {0.5, 0.35};
+			iconScale = 0.2;
+		};
         class LinkedItems {
             class LinkedItemsAcc {
                 slot = "PointerSlot";
@@ -724,7 +742,7 @@ class THOR_FNP90_IR: THOR_FNP90_base{
     inertia=0.40000001;
     dexterity=1.6;
     initSpeed=370;
-    displayName="FN P90 IR";
+    displayName="$STR_THOR_FNP90IR";
 
     picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
     UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
@@ -733,6 +751,28 @@ class THOR_FNP90_IR: THOR_FNP90_base{
     };
     
     descriptionShort=$STR_THOR_FNP90_IR_Desc;
+};
+
+//Variante mit M1913 und intergriertem IR
+class THOR_FNP90_Railed_IR: THOR_FNP90_Railed
+{
+	displayName=$STR_THOR_FNP90TIR;
+	model="\THOR_FNP90_FiveSeven\data\THOR_FNP90_TRAIL.p3d";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class PointerSlot: PointerSlot {
+            compatibleItems[]= {"THOR_P90IntegratedIR"};
+            iconPosition[]={0.28,0.40000001};
+            iconScale=0.25;
+        };
+        class LinkedItems {
+            class LinkedItemsAcc {
+                slot = "PointerSlot";
+                item = "THOR_P90IntegratedIR";
+            };
+        };
+
+        mass=60;
+    };
 };
 
 class ItemCore;

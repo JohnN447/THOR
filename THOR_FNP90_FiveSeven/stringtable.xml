@@ -3,9 +3,24 @@
 	<Package name="Labels">
     <!--FN P90-->
 		<Key ID="STR_THOR_FNP90">
-			<Original>FN P90</Original>
-			<English>FN P90</English>
-			<German>FN P90</German>
+			<Original>FN P90 Standard</Original>
+			<English>FN P90 Standard</English>
+			<German>FN P90 Standard</German>
+		</Key>
+		<Key ID="STR_THOR_FNP90T">
+			<Original>FN P90 Tactical</Original>
+			<English>FN P90 Tactical</English>
+			<German>FN P90 Tactical</German>
+		</Key>
+		<Key ID="STR_THOR_FNP90TIR">
+			<Original>FN P90 Tactical LV / LIR</Original>
+			<English>FN P90 Tactical LV / LIR</English>
+			<German>FN P90 Tactical LV / LIR</German>
+		</Key>
+		<Key ID="STR_THOR_FNP90IR">
+			<Original>FN P90 Standard LV / LIR</Original>
+			<English>FN P90 Standard LV / LIR</English>
+			<German>FN P90 Standard LV / LIR</German>
 		</Key>
         
 		<Key ID="STR_THOR_FNP90_Libr /ary">
