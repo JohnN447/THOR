@@ -2,15 +2,24 @@ class THOR_FNP90_FiveSeven
 {
     vehicles[] = {};
     
-    units[] = {};
+	units[] = {};
     
-    weapons[] = {
-        "THOR_FNP90"
-    };
+    weapons[] = {	
+		"THOR_IR"
+	};
+	requiredVersion = 1.0;
+	requiredAddons[]=
+	{
+		"A3_Weapons_F",
+		//"asdg_jointrails"
+	};
 
-    requiredVersion = 1.0;
-    requiredAddons[] = 
-    {
-        "A3_Weapons_F"
-    };
  };
+/*class asdg_SlotInfo;
+class asdg_FrontSideRail: asdg_SlotInfo
+{
+	class compatibleItems
+		{
+			THOR_IR=1;
+		};
+};*/

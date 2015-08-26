@@ -168,7 +168,6 @@ class THOR_FNP90_base: Rifle_Base_F
     modes[]=
     {
         "Single",
-        "Burst",
         "FullAuto"
     };
     drySound[]=
@@ -428,245 +427,7 @@ class THOR_FNP90_base: Rifle_Base_F
         aiRateOfFire=2;
         aiRateOfFireDistance=300;
     };
-    class Burst: Mode_Burst
-    {
-        sounds[]=
-        {
-            "StandardSound",
-            "SilencedSound"
-        };
-		class BaseSoundModeType
-			{
-				closure1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\closure_Katiba_01",
-					0.56234133,
-					1,
-					10
-				};
-				closure2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\closure_Katiba_02",
-					0.56234133,
-					1,
-					10
-				};
-				soundClosure[]=
-				{
-					"closure1",
-					0.5,
-					"closure2",
-					0.5
-				};
-			};
-		class StandardSound: BaseSoundModeType
-			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_short_01",
-					3.1622777,
-					1,
-					1800
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_short_02",
-					3.1622777,
-					1,
-					1800
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_short_03",
-					3.1622777,
-					1,
-					1800
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin2",
-					0.34
-				};
-				class SoundTails
-				{
-					class TailInterior
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_tail_interior",
-							1.5848932,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="interior";
-					};
-					class TailTrees
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_tail_trees",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*trees";
-					};
-					class TailForest
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_tail_forest",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*forest";
-					};
-					class TailMeadows
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_tail_meadows",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
-					};
-					class TailHouses
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Katiba_tail_houses",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*houses";
-					};
-				};
-			};
-		class SilencedSound: BaseSoundModeType
-			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_short_01",
-					0.79432821,
-					1,
-					400
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_short_02",
-					0.79432821,
-					1,
-					400
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_short_03",
-					0.79432821,
-					1,
-					400
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.34
-				};
-				class SoundTails
-				{
-					class TailInterior
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_Tail_interior",
-							1,
-							1,
-							400
-						};
-						frequency=1;
-						volume="interior";
-					};
-					class TailTrees
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_Tail_trees",
-							1,
-							1,
-							400
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*trees";
-					};
-					class TailForest
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_Tail_forest",
-							1,
-							1,
-							400
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*forest";
-					};
-					class TailMeadows
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_Tail_meadows",
-							1,
-							1,
-							400
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
-					};
-					class TailHouses
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Rifles\Katiba\Silencer_Katiba_Tail_houses",
-							1,
-							1,
-							400
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*houses";
-					};
-				};
-			};
-        soundBurst=0;
-        burst=3;
-        reloadTime=0.044499999;
-        dispersion=0.0011;
-        recoil="recoil_burst_smg_02";
-        recoilProne="recoil_burst_prone_smg_02";
-        minRange=2;
-        minRangeProbab=0.30000001;
-        midRange=50;
-        midRangeProbab=0.69999999;
-        maxRange=100;
-        maxRangeProbab=0.050000001;
-        aiRateOfFire=1;
-        aiRateOfFireDistance=250;
-    };
-		class FullAuto: Mode_FullAuto
+	class FullAuto: Mode_FullAuto
 		{
 			sounds[]=
 			{
@@ -902,14 +663,11 @@ class THOR_FNP90_base: Rifle_Base_F
         aiRateOfFire=1e-006;
         aiRateOfFireDistance=50;
     };
-    class UGL_F: UGL_F
-    {
-    };
 };
 
 class THOR_FNP90: THOR_FNP90_base
 {
-    author="[THOR]Heron";
+    author="[THOR] Heron";
     _generalMacro="SMG_02_F";
     scope=2;
     model="\THOR_FNP90_FiveSeven\data\THOR_FNP90.p3d";
@@ -937,3 +695,82 @@ class THOR_FNP90: THOR_FNP90_base
     };
     descriptionShort=$STR_THOR_FNP90_Desc;
 };
+
+
+class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
+	{
+    author="[THOR] Heron";
+    _generalMacro="SMG_02_F";
+    scope=2;
+    model="\THOR_FNP90_FiveSeven\data\THOR_FNP90.p3d";
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class PointerSlot: PointerSlot
+        {
+			            compatibleItems[]=
+            {
+                "THOR_IR",
+				"RH_peq15"
+            };
+            iconPosition[]={0.28,0.40000001};
+            iconScale=0.25;
+        };
+
+
+	class LinkedItems
+		{
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "THOR_IR";
+			};
+		};
+
+     mass=60;
+    };
+    inertia=0.40000001;
+    dexterity=1.6;
+    initSpeed=370;
+    displayName=$STR_THOR_FNP90_IR;
+
+    picture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
+    UiPicture="\THOR_FNP90_FiveSeven\data\icons\THOR_P90.paa";
+    class Library
+    {
+        libTextDesc=$STR_THOR_FNP90_IR_Library;
+    };
+    descriptionShort=$STR_THOR_FNP90_IR_Desc;
+	};
+
+class PointerSlot;
+class CfgWeapons
+{
+	class ItemCore;
+	class ItemInfo;
+	class InventoryFlashLightItem_Base_F;
+	class THOR_IR: ItemCore
+		{
+		scope=1;
+		author="[THOR] Heron";
+		displayName="P90 integriertes IR-Laser";
+		descriptionUse="$STR_A3_IRL";
+		picture="\RH_acc\inv\ui\peq15_ui_ca.paa";
+		model="\THOR_FNP90_FiveSeven\data\THOR_IR.p3d";
+		descriptionShort="$STR_A3_IRL";
+		class ItemInfo: InventoryFlashLightItem_Base_F
+		{
+			mass=1;
+			class Pointer
+			{
+				irLaserPos="laser pos";
+				irLaserEnd="laser dir";
+				irDistance=5;
+			};
+			class FlashLight
+			{
+			};
+		};
+		inertia=0.05;
+	};
+};
+
