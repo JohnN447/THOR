@@ -743,8 +743,7 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
 	};
 
 class PointerSlot;
-class CfgWeapons
-{
+
 	class ItemCore;
 	class ItemInfo;
 	class InventoryFlashLightItem_Base_F;
@@ -772,5 +771,5 @@ class CfgWeapons
 		};
 		inertia=0.05;
 	};
-};
+
 
