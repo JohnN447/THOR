@@ -742,20 +742,18 @@ class THOR_FNP90_IR: THOR_FNP90_base //Variant with integrated IR Laser
     descriptionShort=$STR_THOR_FNP90_IR_Desc;
 	};
 
-class PointerSlot;
-
 	class ItemCore;
 	class ItemInfo;
 	class InventoryFlashLightItem_Base_F;
 	class THOR_IR: ItemCore
 		{
-		scope=1;
+		scope=2;
 		author="[THOR] Heron";
-		displayName="P90 integriertes IR-Laser";
-		descriptionUse="$STR_A3_IRL";
-		picture="\RH_acc\inv\ui\peq15_ui_ca.paa";
+		displayName="P90 integrierter IR-Laser";
+		descriptionUse=$STR_A3_IRL;
+		picture="";
 		model="\THOR_FNP90_FiveSeven\data\THOR_IR.p3d";
-		descriptionShort="$STR_A3_IRL";
+		descriptionShort=$STR_A3_IRL;
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
 			mass=1;
@@ -771,5 +769,3 @@ class PointerSlot;
 		};
 		inertia=0.05;
 	};
-
-
