@@ -1,1 +1,0 @@
-Mod is built modular, meaning you can remove .pbo-files you dont need/want to have.
